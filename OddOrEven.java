@@ -7,5 +7,6 @@ public class OddOrEven {
         int num = sc.nextInt();
         
         System.out.println(num + " is " + (num % 2 == 0 ? "Even" : "Odd") + " Number");
+        sc.close();
     }
 }
